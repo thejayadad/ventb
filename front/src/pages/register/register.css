@@ -1,0 +1,41 @@
+
+
+.container{
+    height: 100%;
+display: grid;
+justify-content: center;
+background-color: whitesmoke;
+flex-wrap: wrap;
+text-align: center;
+}
+.register-box{
+    margin-top: 30px;
+padding: 20px ;
+width: 350px;
+height: 380px;
+text-align: center;
+border: 1px solid rgb(216, 211, 211);
+background-color: white;
+}
+.register-text{
+    color: black;
+}
+.register-input{
+width: 250px;
+height: 30px;
+margin: 20px 30px 10px 30px;
+background-color: whitesmoke;
+padding: 10px;
+border: 1px solid rgb(216, 211, 211);
+}
+.register-submit{
+width: 250px;
+height: 30px;
+margin: 20px 30px 10px 30px;
+background-color: rgb(85, 85, 223);
+padding-bottom: 0px;
+border: 1px solid rgb(216, 211, 211);
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
