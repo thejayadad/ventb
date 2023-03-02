@@ -15,7 +15,14 @@ const Navbar = () => {
       <span>Vent Board</span>
 
       <div className='profile'>
-        profile
+        <span onClick={() => setShowModal (prev => !prev)}>Login</span>
+        {
+          showModal &&
+          <div>
+            <Link to="/create">Create</Link>
+            <span>Logout</span>
+          </div>
+        }
       </div>
     </div>
     </header>
